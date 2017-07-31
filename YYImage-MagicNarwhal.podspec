@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
-  s.homepage     = 'https://github.com/ibireme/YYImage'
+  s.homepage     = 'https://github.com/MagicNarwhal/YYImage'
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
   s.source       = { :git => 'https://github.com/MagicNarwhal/YYImage.git', :tag => s.version.to_s }
