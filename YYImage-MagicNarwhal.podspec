@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YYImage-MagicNarwhal'
   s.summary      = 'Image framework for iOS to display/encode/decode animated WebP, APNG, GIF, and more.'
-  s.version      = '1.0.5'
+  s.version      = '1.0.6'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   
   s.subspec 'Core' do |core|
-    core.source_files = 'YYImage/*.{h,m}'
-    core.public_header_files = 'YYImage/*.{h}'
+    core.source_files = 'Core/*.{h,m}'
+    core.public_header_files = 'Core/*.h'
     core.libraries = 'z'
     core.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
   end
