@@ -11,13 +11,13 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<MagicNarwhal-YYImage/YYImage.h>)
+#if __has_include(<YYImage_MagicNarwhal/YYImage.h>)
 FOUNDATION_EXPORT double YYImageVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYImageVersionString[];
-#import <MagicNarwhal-YYImage/YYFrameImage.h>
-#import <MagicNarwhal-YYImage/YYSpriteSheetImage.h>
-#import <MagicNarwhal-YYImage/YYImageCoder.h>
-#import <MagicNarwhal-YYImage/YYAnimatedImageView.h>
+#import <YYImage_MagicNarwhal/YYFrameImage.h>
+#import <YYImage_MagicNarwhal/YYSpriteSheetImage.h>
+#import <YYImage_MagicNarwhal/YYImageCoder.h>
+#import <YYImage_MagicNarwhal/YYAnimatedImageView.h>
 #elif __has_include(<YYWebImage/YYImage.h>)
 #import <YYWebImage/YYFrameImage.h>
 #import <YYWebImage/YYSpriteSheetImage.h>

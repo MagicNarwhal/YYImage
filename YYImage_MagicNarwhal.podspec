@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'YYImage-MagicNarwhal'
+  s.name         = 'YYImage_MagicNarwhal'
   s.summary      = 'Image framework for iOS to display/encode/decode animated WebP, APNG, GIF, and more.'
   s.version      = '1.0.7'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   
   s.subspec 'Core' do |core|
-    core.source_files = 'MagicNarwhal-YYImage/*.{h,m}'
-    core.public_header_files = 'MagicNarwhal-YYImage/*.h'
+    core.source_files = 'YYImage_MagicNarwhal/*.{h,m}'
+    core.public_header_files = 'YYImage_MagicNarwhal/*.h'
     core.libraries = 'z'
     core.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
   end
   
   s.subspec 'WebP' do |webp|
-    webp.dependency 'YYImage-MagicNarwhal/Core'
+    webp.dependency 'YYImage_MagicNarwhal/Core'
     webp.ios.vendored_frameworks = 'Vendor/WebP.framework'
   end
 
