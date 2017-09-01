@@ -11,8 +11,8 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<YYImage/YYImage.h>)
-#import <YYImage/YYAnimatedImageView.h>
+#if __has_include(<MagicNarwhal-YYImage/YYImage.h>)
+#import <MagicNarwhal-YYImage/YYAnimatedImageView.h>
 #elif __has_include(<YYWebImage/YYImage.h>)
 #import <YYWebImage/YYAnimatedImageView.h>
 #else
