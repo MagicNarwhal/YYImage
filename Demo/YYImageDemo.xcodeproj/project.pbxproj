@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D93B2D521BDB944B009B66B0 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D511BDB944B009B66B0 /* UIView+YYAdd.m */; settings = {ASSET_TAGS = (); }; };
-		D93B2D611BDB96DE009B66B0 /* YYImageExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D541BDB96DE009B66B0 /* YYImageExample.m */; settings = {ASSET_TAGS = (); }; };
-		D93B2D621BDB96DE009B66B0 /* YYImageDisplayExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D561BDB96DE009B66B0 /* YYImageDisplayExample.m */; settings = {ASSET_TAGS = (); }; };
-		D93B2D631BDB96DE009B66B0 /* YYImageProgressiveExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D581BDB96DE009B66B0 /* YYImageProgressiveExample.m */; settings = {ASSET_TAGS = (); }; };
-		D93B2D661BDB96DE009B66B0 /* YYImageExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D5E1BDB96DE009B66B0 /* YYImageExampleHelper.m */; settings = {ASSET_TAGS = (); }; };
-		D93B2D6D1BDB99BA009B66B0 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D6A1BDB99BA009B66B0 /* UIControl+YYAdd.m */; settings = {ASSET_TAGS = (); }; };
-		D93B2D6E1BDB99BA009B66B0 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D6C1BDB99BA009B66B0 /* UIGestureRecognizer+YYAdd.m */; settings = {ASSET_TAGS = (); }; };
+		D93B2D521BDB944B009B66B0 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D511BDB944B009B66B0 /* UIView+YYAdd.m */; };
+		D93B2D611BDB96DE009B66B0 /* YYImageExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D541BDB96DE009B66B0 /* YYImageExample.m */; };
+		D93B2D621BDB96DE009B66B0 /* YYImageDisplayExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D561BDB96DE009B66B0 /* YYImageDisplayExample.m */; };
+		D93B2D631BDB96DE009B66B0 /* YYImageProgressiveExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D581BDB96DE009B66B0 /* YYImageProgressiveExample.m */; };
+		D93B2D661BDB96DE009B66B0 /* YYImageExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D5E1BDB96DE009B66B0 /* YYImageExampleHelper.m */; };
+		D93B2D6D1BDB99BA009B66B0 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D6A1BDB99BA009B66B0 /* UIControl+YYAdd.m */; };
+		D93B2D6E1BDB99BA009B66B0 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B2D6C1BDB99BA009B66B0 /* UIGestureRecognizer+YYAdd.m */; };
 		D93B2D701BDBA586009B66B0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D93B2D6F1BDBA586009B66B0 /* libz.tbd */; };
-		D93B2D801BDBBE66009B66B0 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D741BDBBE66009B66B0 /* niconiconi@2x.gif */; settings = {ASSET_TAGS = (); }; };
-		D93B2D811BDBBE66009B66B0 /* google@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D751BDBBE66009B66B0 /* google@2x.webp */; settings = {ASSET_TAGS = (); }; };
-		D93B2D821BDBBE66009B66B0 /* nyancat@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D761BDBBE66009B66B0 /* nyancat@2x.webp */; settings = {ASSET_TAGS = (); }; };
-		D93B2D831BDBBE66009B66B0 /* pia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D771BDBBE66009B66B0 /* pia@2x.png */; settings = {ASSET_TAGS = (); }; };
-		D93B2D841BDBBE66009B66B0 /* cube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D781BDBBE66009B66B0 /* cube@2x.png */; settings = {ASSET_TAGS = (); }; };
-		D93B2D851BDBBE66009B66B0 /* wall-e@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D791BDBBE66009B66B0 /* wall-e@2x.webp */; settings = {ASSET_TAGS = (); }; };
-		D93B2D861BDBBE66009B66B0 /* mew_baseline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7A1BDBBE66009B66B0 /* mew_baseline.jpg */; settings = {ASSET_TAGS = (); }; };
-		D93B2D871BDBBE66009B66B0 /* mew_progressive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7B1BDBBE66009B66B0 /* mew_progressive.jpg */; settings = {ASSET_TAGS = (); }; };
-		D93B2D881BDBBE66009B66B0 /* mew_baseline.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7C1BDBBE66009B66B0 /* mew_baseline.png */; settings = {ASSET_TAGS = (); }; };
-		D93B2D891BDBBE66009B66B0 /* mew_interlaced.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7D1BDBBE66009B66B0 /* mew_interlaced.png */; settings = {ASSET_TAGS = (); }; };
-		D93B2D8A1BDBBE66009B66B0 /* mew_baseline.gif in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7E1BDBBE66009B66B0 /* mew_baseline.gif */; settings = {ASSET_TAGS = (); }; };
-		D93B2D8B1BDBBE66009B66B0 /* mew_interlaced.gif in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7F1BDBBE66009B66B0 /* mew_interlaced.gif */; settings = {ASSET_TAGS = (); }; };
-		D93B2D8E1BDBBE74009B66B0 /* ResourceTwitter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D8C1BDBBE74009B66B0 /* ResourceTwitter.bundle */; settings = {ASSET_TAGS = (); }; };
-		D93B2D8F1BDBBE74009B66B0 /* EmoticonWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D8D1BDBBE74009B66B0 /* EmoticonWeibo.bundle */; settings = {ASSET_TAGS = (); }; };
+		D93B2D801BDBBE66009B66B0 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D741BDBBE66009B66B0 /* niconiconi@2x.gif */; };
+		D93B2D811BDBBE66009B66B0 /* google@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D751BDBBE66009B66B0 /* google@2x.webp */; };
+		D93B2D821BDBBE66009B66B0 /* nyancat@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D761BDBBE66009B66B0 /* nyancat@2x.webp */; };
+		D93B2D831BDBBE66009B66B0 /* pia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D771BDBBE66009B66B0 /* pia@2x.png */; };
+		D93B2D841BDBBE66009B66B0 /* cube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D781BDBBE66009B66B0 /* cube@2x.png */; };
+		D93B2D851BDBBE66009B66B0 /* wall-e@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D791BDBBE66009B66B0 /* wall-e@2x.webp */; };
+		D93B2D861BDBBE66009B66B0 /* mew_baseline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7A1BDBBE66009B66B0 /* mew_baseline.jpg */; };
+		D93B2D871BDBBE66009B66B0 /* mew_progressive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7B1BDBBE66009B66B0 /* mew_progressive.jpg */; };
+		D93B2D881BDBBE66009B66B0 /* mew_baseline.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7C1BDBBE66009B66B0 /* mew_baseline.png */; };
+		D93B2D891BDBBE66009B66B0 /* mew_interlaced.png in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7D1BDBBE66009B66B0 /* mew_interlaced.png */; };
+		D93B2D8A1BDBBE66009B66B0 /* mew_baseline.gif in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7E1BDBBE66009B66B0 /* mew_baseline.gif */; };
+		D93B2D8B1BDBBE66009B66B0 /* mew_interlaced.gif in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D7F1BDBBE66009B66B0 /* mew_interlaced.gif */; };
+		D93B2D8E1BDBBE74009B66B0 /* ResourceTwitter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D8C1BDBBE74009B66B0 /* ResourceTwitter.bundle */; };
+		D93B2D8F1BDBBE74009B66B0 /* EmoticonWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D93B2D8D1BDBBE74009B66B0 /* EmoticonWeibo.bundle */; };
 		D946DE071BD13D75006B77F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE061BD13D75006B77F7 /* main.m */; };
 		D946DE0A1BD13D75006B77F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE091BD13D75006B77F7 /* AppDelegate.m */; };
 		D946DE0D1BD13D75006B77F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE0C1BD13D75006B77F7 /* ViewController.m */; };
 		D946DE101BD13D75006B77F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D946DE0E1BD13D75006B77F7 /* Main.storyboard */; };
 		D946DE121BD13D75006B77F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D946DE111BD13D75006B77F7 /* Assets.xcassets */; };
 		D946DE151BD13D75006B77F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D946DE131BD13D75006B77F7 /* LaunchScreen.storyboard */; };
-		D946DE391BD13E28006B77F7 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE301BD13E28006B77F7 /* YYAnimatedImageView.m */; settings = {ASSET_TAGS = (); }; };
-		D946DE3A1BD13E28006B77F7 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE321BD13E28006B77F7 /* YYFrameImage.m */; settings = {ASSET_TAGS = (); }; };
-		D946DE3B1BD13E28006B77F7 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE341BD13E28006B77F7 /* YYImage.m */; settings = {ASSET_TAGS = (); }; };
-		D946DE3C1BD13E28006B77F7 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE361BD13E28006B77F7 /* YYImageCoder.m */; settings = {ASSET_TAGS = (); }; };
-		D946DE3D1BD13E28006B77F7 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE381BD13E28006B77F7 /* YYSpriteSheetImage.m */; settings = {ASSET_TAGS = (); }; };
-		D946DE3F1BD13E32006B77F7 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D946DE3E1BD13E32006B77F7 /* WebP.framework */; settings = {ASSET_TAGS = (); }; };
+		D946DE391BD13E28006B77F7 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE301BD13E28006B77F7 /* YYAnimatedImageView.m */; };
+		D946DE3A1BD13E28006B77F7 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE321BD13E28006B77F7 /* YYFrameImage.m */; };
+		D946DE3B1BD13E28006B77F7 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE341BD13E28006B77F7 /* YYImage.m */; };
+		D946DE3C1BD13E28006B77F7 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE361BD13E28006B77F7 /* YYImageCoder.m */; };
+		D946DE3D1BD13E28006B77F7 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE381BD13E28006B77F7 /* YYSpriteSheetImage.m */; };
+		D946DE3F1BD13E32006B77F7 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D946DE3E1BD13E32006B77F7 /* WebP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -223,7 +223,7 @@
 				D946DE301BD13E28006B77F7 /* YYAnimatedImageView.m */,
 			);
 			name = YYImage;
-			path = ../YYImage;
+			path = ../YYImage_MagicNarwhal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +252,7 @@
 		D946DDFA1BD13D75006B77F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = ibireme;
 				TargetAttributes = {
 					D946DE011BD13D75006B77F7 = {
@@ -358,13 +358,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -401,13 +409,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -435,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Vendor\"";
 				INFOPLIST_FILE = YYImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -451,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Vendor\"";
 				INFOPLIST_FILE = YYImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
